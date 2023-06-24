@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shop</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styling.css">
+        <link rel=”stylesheet” href=”css/bootstrap.css”>
+        <link rel=”stylesheet” href=”css/bootstrap-responsive.css”>
+        <link rel="stylesheet" href="./css/bootstrap.css">
+	      <script src="./js/jquery-3.6.0.js"></script>
+        <script src="./js/bootstrap.js"></script>
+       <script src="./js/java.js"></script>
+        <script src="https://kit.fontawesome.com/aa3edc3ef9.js" crossorigin="anonymous"></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+          </style>
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div id="banner">   
+        </div>
+        <nav class="navbar navbar-expand-lg py-3">
+          <li class="nav-item">
+            <img src="logo-pink.png" width="60px">
+          </li>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon bg-light p-4"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="bentohome.html">Home<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="recipes.php">Recipes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-danger" href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hidden.html">Hidden Allergens</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="account.php">Edit Account</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" name="logout" href="login.php">Log Out</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="submit.php">Submit Recipe</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-brands fa-twitter"></i></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+          <div class="">
+            <div class="shop-bg">
+            <div class="row mb-5">
+              <div class="col-6 m-auto">
+            </div>
+            </div>
+            <div class="row"><p class="text-center h1 my-5 text-uppercase bannerh2">Featured Products</p></div>
+            <div class="row justify-content-center text-center mb-5">
+              <div class="col-sm-4">
+                <div class="spon-product1">
+                  <p class="text-muted"></p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="spon-product2">
+                  <p class="text-muted"></p>
+                </div>
+              </div>
+            </div>
+              <p class="text-center display-1 my-5 text-uppercase">Bento Shop</p>
+              <p class="h3 text-center">Easily see what you can eat based on your allergies, intolerances or diet.</p>
+            <div class="row">
+              <div class="col-sm-8 m-auto">
+              <div class="shop-banner mt-5 mb-5">
+                <img src="shopbanner2.jpg" class="img-fluid">
+              </div>
+              </div>
+            </div>
+            </div>
+            <nav class="navbar navbar-light bg-light border">
+              <form class="form-inline">
+                <a href="#" onclick="openTab2('lactose-free-products', this)"><button class="btn-sm shop-nav" type="button">Lactose Free/Non-Dairy</button></a>
+                <a href="#" onclick="openTab2('gluten-free-products', this)"><button class="btn-sm shop-nav" type="button">Gluten/Wheat Free</button></a>
+                <a href="#" onclick="openTab2('vegan-products', this)"><button class="btn-sm shop-nav" type="button">Plant-Based Meat</button></a>
+              </form>
+            </nav>
+
+           
+            <div class="container justify-content-center mt-100">
+              <div class="row navcontent2" id="lactose-free-products">
+                <div class="col-md-3"> 
+                    <div class="product-wrapper mb-45 text-center"> 
+                        <div class="product-img">
+                            <a href="#" data-abc="true"> 
+                                <img src="514BQj9U9SL.jpg" alt="" width="120px">
+                            </a>	
+                        <span class="text-center">45 EGP</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Lactose-Free Milk</h3>
+                        <p>Juhayana</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-3"> 
+                    <div class="product-wrapper mb-45 text-center"> 
+                        <div class="product-img">
+                            <a href="#" data-abc="true"> 
+                            <img src="so.jpg" alt="" width="180px"></a>	
+                            <span>50 EGP</span>
+                        </div> 
+                    </div> 
+                    <div class="product-info">
+                        <h3>Non-Dairy Strawberry Icecream</h3>
+                        <p>So Delicious</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3"> 
+                    <div class="product-wrapper mb-45 text-center"> 
+                        <div class="product-img"> 
+                            <a href="#" data-abc="true"> 
+                                <img src="soice.jpg" alt="" width="180px"></a>	
+                                <span>38 EGP</span> 
+                        </div> 
+                    </div> 
+                    <div class="product-info">
+                        <h3>Non-Dairy Salted Caramel Icecream</h3>
+                        <p>So Delicious</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3"> 
+                    <div class="product-wrapper mb-45 text-center"> 
+                        <div class="product-img"> 
+                            <a href="#" data-abc="true"> 
+                                <img src="images.png" alt="" width="180px"></a>	
+                                <span>47 EGP</span> 
+                        </div> 
+                    </div> 
+                    <div class="product-info">
+                        <h3>Free Lactose & Fat Milk</h3>
+                        <p>Juhayna</p>
+                    </div>
+                    </div>
+                    <div class="col-md-3"> 
+                      <div class="product-wrapper mb-45 text-center"> 
+                          <div class="product-img">
+                              <a href="#" data-abc="true"> 
+                                  <img src="lamar1.png" alt="" width="180px">
+                              </a>	
+                          <span class="text-center">45 EGP</span>
+                          </div>
+                      </div>
+                      <div class="product-info">
+                          <h3>Lactose Free Milk</h3>
+                          <p>Lamar</p>
+                      </div>
+                  </div> 
+                  <div class="col-md-3"> 
+                    <div class="product-wrapper mb-45 text-center"> 
+                        <div class="product-img">
+                            <a href="#" data-abc="true"> 
+                                <img src="so4.png" alt="" width="180px">
+                            </a>	
+                        <span class="text-center">45 EGP</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Dairy Free Vanilla Icecream</h3>
+                        <p>So Delicious</p>
+                    </div>
+                </div>
+                <div class="col-md-3"> 
+                  <div class="product-wrapper mb-45 text-center"> 
+                      <div class="product-img">
+                          <a href="#" data-abc="true"> 
+                              <img src="so5.png" alt="" width="180px">
+                          </a>	
+                      <span class="text-center">45 EGP</span>
+                      </div>
+                  </div>
+                  <div class="product-info">
+                      <h3>Diary Free Soy Milk Vanilla Icecream</h3>
+                      <p>So Delicious</p>
+                  </div>
+              </div>
+              <div class="col-md-3"> 
+                <div class="product-wrapper mb-45 text-center"> 
+                    <div class="product-img">
+                        <a href="#" data-abc="true"> 
+                            <img src="soo.png" alt="" width="180px">
+                        </a>	
+                    <span class="text-center">47 EGP</span>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Dairy Free Coconut Milk Plain Yoghurt</h3>
+                    <p>So Delicious</p>
+                </div>
+            </div>
+                     </div>
+
+
+              
+                    <div class="row navcontent2" id="gluten-free-products">
+                    <div class="col-md-3"> 
+                    <div class="product-wrapper mb-45 text-center"> 
+                    <div class="product-img">
+                    <a href="#" data-abc="true"> 
+                    <img src="bar2jpg.jpg" alt="" width="180px">
+                    </a>	
+                    <span class="text-center">245 EGP</span>
+                    </div>
+                    </div>
+                    <div class="product-info">
+                    <h3>Gluten-Free Spaghetti</h3>
+                    <p>Barilla</p>
+                    </div>
+                    </div>
+                    <div class="col-md-3"> 
+                      <div class="product-wrapper mb-45 text-center"> 
+                      <div class="product-img">
+                      <a href="#" data-abc="true"> 
+                      <img src="bar3.jpg" alt="" width="180px">
+                      </a>	
+                      <span class="text-center">247 EGP</span>
+                      </div>
+                      </div>
+                      <div class="product-info">
+                      <h3>Gluten-Free Penne</h3>
+                      <p>Barilla</p>
+                      </div>
+                      </div>
+                      <div class="col-md-3"> 
+                        <div class="product-wrapper mb-45 text-center"> 
+                        <div class="product-img">
+                        <a href="#" data-abc="true"> 
+                        <img src="daya.jpg" alt="" width="180px">
+                        </a>	
+                        <span class="text-center">370 EGP</span>
+                        </div>
+                        </div>
+                        <div class="product-info">
+                        <h3>Gluten & Dairy Free Mac and Cheese</h3>
+                        <p>Daiya</p>
+                        </div>
+                        </div>
+                        <div class="col-md-3"> 
+                          <div class="product-wrapper mb-45 text-center"> 
+                          <div class="product-img">
+                          <a href="#" data-abc="true"> 
+                          <img src="dia.jpg" alt="" width="180px">
+                          </a>	
+                          <span class="text-center">400 EGP</span>
+                          </div>
+                          </div>
+                          <div class="product-info">
+                          <h3>Gluten & Dairy Free Cheesecake</h3>
+                          <p>Daiya</p>
+                          </div>
+                          </div>
+                          <div class="col-md-3"> 
+                            <div class="product-wrapper mb-45 text-center"> 
+                            <div class="product-img">
+                            <a href="#" data-abc="true"> 
+                            <img src="dia3.jpg" alt="" width="180px">
+                            </a>	
+                            <span class="text-center">290 EGP</span>
+                            </div>
+                            </div>
+                            <div class="product-info">
+                            <h3>Gluten & Dairy Free Pizza - Cheese Lovers</h3>
+                            <p>Daiya</p>
+                            </div>
+                            </div>
+                            <div class="col-md-3"> 
+                              <div class="product-wrapper mb-45 text-center"> 
+                              <div class="product-img">
+                              <a href="#" data-abc="true"> 
+                              <img src="dia4.jpg" alt="" width="180px">
+                              </a>	
+                              <span class="text-center">450 EGP</span>
+                              </div>
+                              </div>
+                              <div class="product-info">
+                              <h3>Gluten & Dairy Free Alfredo Style Pasta</h3>
+                              <p>Daiya</p>
+                              </div>
+                              </div>
+                              <div class="col-md-3"> 
+                                <div class="product-wrapper mb-45 text-center"> 
+                                <div class="product-img">
+                                <a href="#" data-abc="true"> 
+                                <img src="j1.jpg" alt="" width="180px">
+                                </a>	
+                                <span class="text-center">380 EGP</span>
+                                </div>
+                                </div>
+                                <div class="product-info">
+                                <h3>Gluten-Free Spaghetti</h3>
+                                <p>Jovial</p>
+                                </div>
+                                </div>
+                                                        
+                                <div class="col-md-3"> 
+                                <div class="product-wrapper mb-45 text-center"> 
+                                <div class="product-img">
+                                <a href="#" data-abc="true"> 
+                                <img src="j2.jpg" alt="" width="180px"></a>	
+                                <span>306 EGP</span>
+                                </div> 
+                                </div> 
+                                <div class="product-info">
+                                <h3>Gluten Free Penne</h3>
+                                <p>Jovial</p>
+                                </div>
+                                </div>
+                                        
+                                <div class="col-md-3"> 
+                                <div class="product-wrapper mb-45 text-center"> 
+                                <div class="product-img"> 
+                                <a href="#" data-abc="true"> 
+                                <img src="jov.jpg" alt="" width="180px"></a>	
+                                <span>380 EGP</span> 
+                                </div> 
+                                </div> 
+                                <div class="product-info">
+                                <h3>Gluten-Free Elbowes Pasta</h3>
+                                <p>Jovial</p>
+                                </div>
+                                </div>
+                                        
+                                <div class="col-md-3"> 
+                                <div class="product-wrapper mb-45 text-center"> 
+                                <div class="product-img"> 
+                                <a href="#" data-abc="true"> 
+                                <img src="ll1.jpg" alt="" width="180px"></a>	
+                                <span>67 EGP</span> 
+                                </div> 
+                                </div> 
+                                <div class="product-info">
+                                <h3>Oat Spaghetti Pasta</h3>
+                                <p>Lino</p>
+                                </div>
+                                </div>
+                                <div class="col-md-3"> 
+                                  <div class="product-wrapper mb-45 text-center"> 
+                                  <div class="product-img"> 
+                                  <a href="#" data-abc="true"> 
+                                  <img src="ll2.jpg" alt="" width="180px"></a>	
+                                  <span>64 EGP</span> 
+                                  </div> 
+                                  </div> 
+                                  <div class="product-info">
+                                  <h3>Oat Penne Pasta</h3>
+                                  <p>Lino</p>
+                                  </div>
+                                  </div>
+                                  <div class="col-md-3"> 
+                                    <div class="product-wrapper mb-45 text-center"> 
+                                    <div class="product-img"> 
+                                    <a href="#" data-abc="true"> 
+                                    <img src="1.jpg" alt="" width="180px"></a>	
+                                    <span>67 EGP</span> 
+                                    </div> 
+                                    </div> 
+                                    <div class="product-info">
+                                    <h3>Oat Gemelli Pasta</h3>
+                                    <p>Lino</p>
+                                    </div>
+                                    </div> 
+                                </div>
+
+              <div class="row navcontent2" id="vegan-products">
+                 <div class="col-md-3"> 
+                  <div class="product-wrapper mb-45 text-center"> 
+                  <div class="product-img">
+                  <a href="#" data-abc="true"> 
+                  <img src="ge.jpg" alt="" width="180px">
+                  </a>	
+                  <span class="text-center">120 EGP</span>
+                  </div>
+                  </div>
+                  <div class="product-info">
+                  <h3>Plant-Based Burger</h3>
+                  <p>Good Earth</p>
+                   </div>
+                    </div>
+
+                    <div class="col-md-3"> 
+                    <div class="product-wrapper mb-45 text-center"> 
+                    <div class="product-img">
+                    <a href="#" data-abc="true"> 
+                    <img src="ge2.jpg" alt="" width="180px">
+                    </a>	
+                    <span class="text-center">116 EGP</span>
+                    </div>
+                    </div>
+                    <div class="product-info">
+                    <h3>Plant-Based Minced Meat</h3>
+                    <p>Good Earth</p>
+                    </div>
+                    </div>
+
+                    <div class="col-md-3"> 
+                    <div class="product-wrapper mb-45 text-center"> 
+                    <div class="product-img">
+                    <a href="#" data-abc="true"> 
+                    <img src="ge3.jpg" alt="" width="180px">
+                    </a>	
+                    <span class="text-center">120 EGP</span>
+                     </div>
+                    </div>
+                    <div class="product-info">
+                    <h3>Plant-Based Beef Strips</h3>
+                    <p>Good Earth</p>
+                    </div>
+                    </div>
+                                                        
+                    <div class="col-md-3"> 
+                    <div class="product-wrapper mb-45 text-center"> 
+                    <div class="product-img">
+                    <a href="#" data-abc="true"> 
+                    <img src="beef.jpg" alt="" width="180px"></a>	
+                    <span>470 EGP</span>
+                    </div> 
+                    </div> 
+                    <div class="product-info">
+                    <h3>Plant-Based Ground Beef</h3>
+                    <p>Beyond Meat</p>
+                    </div>
+                    </div>
+                                        
+                    <div class="col-md-3"> 
+                    <div class="product-wrapper mb-45 text-center"> 
+                    <div class="product-img"> 
+                    <a href="#" data-abc="true"> 
+                     <img src="meat3.jpg" alt="" width="180px"></a>	
+                     <span>600 EGP</span> 
+                    </div> 
+                    </div> 
+                    <div class="product-info">
+                    <h3>Plant-Based Burger</h3>
+                    <p>Beyond Meat</p>
+                    </div>
+                    </div>                                            
+                                        
+                    <div class="col-md-3"> 
+                    <div class="product-wrapper mb-45 text-center"> 
+                    <div class="product-img"> 
+                    <a href="#" data-abc="true"> 
+                    <img src="sosag.jpg" alt="" width="180px"></a>	
+                    <span>450 EGP</span> 
+                    </div> 
+                    </div> 
+                    <div class="product-info">
+                    <h3>Plant-Based Sausages</h3>
+                    <p>Beyond Meat</p>
+                    </div>
+                    </div> 
+
+</div>
+</div>
+          <footer class="text-center text-lg-start text-white mt-0">
+            <div class="container p-4 pb-0">
+              <section class="">
+                <div class="row">
+                  <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 vision">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">
+                      BENTO
+                    </h6>
+                    <p>
+                      We want to be global to help all the people struggling, regardless of anything.
+                    </p>
+      
+                    <p>Download our mobile app</p>
+                    <a class="download-app">
+                      <img src="googleplay.svg" alt="Google Play">
+                    </a><br><br>
+                    <a class="download-app">
+                      <img src="appstore.svg" alt="App Store">
+                    </a>
+                  </div>
+        
+                  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Services</h6>
+                    <p>
+                      <a class="footer-links">Recipes</a>
+                    </p>
+                    <p>
+                      <a class="footer-links">Blog</a>
+                    </p>
+                    <p>
+                      <a class="footer-links">Shop</a>
+                    </p>
+                    <p>
+                      <a class="footer-links">Hidden Allergens</a>
+                    </p>
+                  </div>
+        
+                  <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Contact Us</h6>
+                    <p><i class="fas fa-home mr-3"></i> Zahraa Madinet Nasr, Cairo, Egypt</p>
+                    <p><i class="fas fa-envelope mr-3"></i>  bento.webapp@gmail.com</p>
+                    <p><i class="fas fa-phone mr-3"></i> +20 0111 255 2668</p>
+                  </div>
+        
+                  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
+      
+                    <a class="btn btn-primary btn-floating m-1 social-icon"
+                       style="background-color: #3b5998; border: none"
+                       href="#!"
+                       role="button"
+                       ><i class="fab fa-facebook-f"></i
+                      ></a>
+        
+                    <a
+                       class="btn btn-primary btn-floating m-1 social-icon"
+                       style="background-color: #55acee; border: none"
+                       href="#!"
+                       role="button"
+                       ><i class="fab fa-twitter"></i
+                      ></a>
+        
+                    <a
+                       class="btn btn-primary btn-floating m-1 social-icon"
+                       style="background-color: #ac2bac; border: none"
+                       href="#!"
+                       role="button"
+                       ><i class="fab fa-instagram"></i
+                      ></a>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <br>
+            <div class="text-center p-3">
+              © 2020 Copyright:
+              <a class="text-white footer-links" href="https://bento.com/">bento.com</a>
+            </div>
+          </footer>
+    </body>
+    </html>
